@@ -360,4 +360,175 @@ nav{
     margin-top: 10px;
  }
 
- 
+ .add-post-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    margin-right: 30px;
+    font-size: 13px;
+ }
+
+ .add-post-links a img{
+    width: 20px;
+    margin-right: 10px;
+
+ }
+
+ .post-container{
+    width: 100%;
+    background: var(--bg-color);
+    border-radius: 6px;
+    padding: 20px;
+    color: var(--text-color);
+    margin: 20px 0;
+ }
+
+ .user-profile span{
+    font-size: 11px;
+    color: var(--text-color);
+    margin-top: 5px;
+ }
+
+ .post-text{
+    font-size: 15px;
+    margin: 10px 0 10px 20px;
+ }
+
+ .post-text a{
+    text-decoration: none;
+    color: #40ed51;
+    font-size: 15px;
+ }
+
+ .post-img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+ }
+
+ .post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .activity-icons div img{
+    width: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+ }
+
+ .activity-icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+ }
+
+ .post-row a{
+    color: var(--text-color);
+ }
+
+ .load-more-btn{
+    display: block;
+    background-color: #00be7f;
+    border: transparent;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 30px;
+    cursor: pointer;
+    margin: auto;
+    font-size: 13px;
+ }
+
+ .footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px 0;
+    font-size: 13px;
+ }
+
+ .settings-menu{
+    position:absolute;
+    width: 22%;
+    max-width: 350%;
+    background: var(--bg-color);
+    box-shadow:0 0 10px rgb(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 55px;
+    right: 5.2%;
+    max-height: 0;
+    transition: max-height 0.3s;
+ }
+
+ .settings-menu-height{
+    max-height: 450px;
+ }
+
+
+ .user-profile a{
+    font-size: 12px;
+    color: #00be7f;
+    text-decoration: none;
+ }
+
+ .settings-menu-inner{
+    padding: 25px;
+ }
+
+ .settings-menu hr{
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+    margin: 15px 0;
+ }
+
+ .setting-links{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+ }
+
+
+ .setting-links .setting-icon{
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%
+ }
+
+ .setting-links a{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--text-color);
+ }
+
+ #dark-btn{
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    background-color: #ccc;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left 0.5s, background 0.5s;
+ }
+
+ #dark-btn span{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    
+ }
+
+ #dark-btn.drk-mode-btn{
+    padding-left: 23px;
+    background: #212121;
+ }
