@@ -17,3 +17,19 @@ darkMode.onclick = function(){
         localStorage.setItem('theme',"light")
     }
 }
+if(localStorage.getItem('theme') == "light"){
+    darkMode.classList.remove('drk-mode-btn')
+    document.body.classList.remove('dark-theme')
+}
+else if(localStorage.getItem('theme') == "dark"){
+    darkMode.classList.add('drk-mode-btn')
+    document.body.classList.add('dark-theme')
+}
+else{
+    localStorage.setItem('theme',"light");
+}
+
+
+
+localStorage.setItem('theme', 'light');
+localStorage.getItem('theme');
